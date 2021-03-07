@@ -1,0 +1,15 @@
+This is my take on the game pong
+
+Instructions: 
+Select an option by pressing the corresponding key in the game window (not the console window)
+Move the players using w/s and up/down arrow keys
+Hitting the ball with your player will cause it to change its direction, depending on how far the ball was from the center of your player
+	when you hit it, hitting it with the center will send it back in a straight line,
+	while hitting it with your corner will send it under an angle of up to 45 degrees
+	hitting the ball while moving will make it faster, note: bots always speed up the ball on hit
+
+I picked SDL because it seemed more beginner-friendly than SFML, and had no prior knowledge of c++ libraries before this project, 
+	i learned about it by reading a bunch of tutorials and the SDL documentation here https://wiki.libsdl.org/CategoryAPI
+	the functions i use are pretty basic-creating a rectangle for the entities in the game and rendering them,
+	sometimes drawing lines too, and of course delays
+In the code i've tried to explain the most important functions with comments near them
